@@ -29,6 +29,11 @@ table {
   display: flex;
   flex-direction: column;
 }
+tr {
+  display: flex;
+  width: 200px;
+  flex-wrap: wrap;
+}
 th,
 td {
   width: 26px;
