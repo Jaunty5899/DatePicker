@@ -42,3 +42,11 @@ td {
 .dateTable {
   padding: 0px 5px 10px 5px;
 }
+@media (prefers-color-scheme: light) {
+  .placeholder > span {
+    border-color: #213547;
+  }
+  .dateContainer {
+    border-color: #213547;
+  }
+}
